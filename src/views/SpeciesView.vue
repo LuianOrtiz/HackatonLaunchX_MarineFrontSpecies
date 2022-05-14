@@ -1,5 +1,15 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    
+    <marine-card> </marine-card>
   </div>
 </template>
+
+<script>
+import MarineCard from '@/components/species/MarineCard.vue'
+export default {
+  components: {
+    MarineCard
+  }
+}
+</script>
