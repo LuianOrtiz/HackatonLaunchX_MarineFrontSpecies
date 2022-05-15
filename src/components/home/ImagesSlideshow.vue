@@ -1,22 +1,16 @@
 <template>
   <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: url('https://source.unsplash.com/RCAhiGJsUUE/1920x1080')">
+      <div class="carousel-item active" style="background-image: url('https://images.pexels.com/photos/2397653/pexels-photo-2397653.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')">
         <div class="carousel-caption">
-          <h5>First slide label</h5>
-          <p>Some representative placeholder content for the first slide.</p>
+          <h5>Tortuga Marina</h5>
+          <p>Siete de las ocho especies reconocidas en el mundo anidan en las playas de México.</p>
         </div>
       </div>
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/wfh8dDlNFOk/1920x1080')">
+      <div class="carousel-item" style="background-image: url('https://images.pexels.com/photos/5344794/pexels-photo-5344794.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260')">
         <div class="carousel-caption">
-          <h5>Second slide label</h5>
-          <p>Some representative placeholder content for the second slide.</p>
-        </div>
-      </div>
-      <div class="carousel-item" style="background-image: url('https://source.unsplash.com/lHGeqh3XhRY/1920x1080')">
-        <div class="carousel-caption">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
+          <h5>Las playas y las costas</h5>
+          <p>El origen de la vida en este planeta</p>
         </div>
       </div>
     </div>

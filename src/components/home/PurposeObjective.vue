@@ -8,20 +8,20 @@
             <h4 class="card-title">{{titulo1}}</h4>
             <p>{{parrafo1}}</p>
             <p>{{parrafo2}}</p>
-            <a href="#" class="btn btn-primary btn-sm">Read More</a>
+            <a href="/species" class="btn btn-primary btn-sm">Revisa los animales en peligro</a>
           </div>
         </div>
 
         <div class="col-sm-5">
-          <img class="d-block w-100" src="https://picsum.photos/150?image=641" alt="">
+          <img class="d-block w-100" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/20180808-Galápagos_fur_seal-2_at_Santiago_%289781%29.jpg/800px-20180808-Galápagos_fur_seal-2_at_Santiago_%289781%29.jpg" alt="Lobo marino de las Galápagos">
         </div>
       </div>
     </div>
-
+    <br>
     <div class="card float-right">
       <div class="row">
         <div class="col-sm-5">
-          <img class="d-block w-100" src="https://picsum.photos/150?image=641" alt="">
+          <img class="d-block w-100" src="https://images.pexels.com/photos/1098515/pexels-photo-1098515.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="El mundo">
         </div>
         <div class="col-sm-7">
           <div class="card-block">
@@ -29,7 +29,6 @@
             <p>{{parrafo3}}</p>
             <p>{{parrafo4}}</p>
             <br>
-            <a href="#" class="btn btn-primary btn-sm float-right">Read More</a>
           </div>
         </div>
  

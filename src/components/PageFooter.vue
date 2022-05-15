@@ -39,13 +39,13 @@
               <a href="https://github.com/LuianOrtiz" class="text-white">Luis Angel Ortiz</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Salma Patricia Gutiérrez</a>
+              <a href="https://github.com/Pagutri" class="text-white">Salma Patricia Gutiérrez</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Karla Itzel Navarrete Zarate</a>
+              <a href="https://github.com/KarlaINZ25" class="text-white">Karla Itzel Navarrete Zarate</a>
             </p>
             <p>
-              <a href="#!" class="text-white">Alejandro Trinidad Zavala</a>
+              <a href="https://github.com/AlejandroTrinidad97" class="text-white">Alejandro Trinidad Zavala</a>
             </p>
             <p>
               <a href="https://github.com/FerchoArceo/" class="text-white">Fernando Arceo Olivares</a>
@@ -56,22 +56,13 @@
           <!-- links -->
           <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Useful links</h6>
+            <h6 class="text-uppercase fw-bold">Organizaciones de protección animal</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
             <p>
-              <a href="#!" class="text-white">Your Account</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Become an Affiliate</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Shipping Rates</a>
-            </p>
-            <p>
-              <a href="#!" class="text-white">Help</a>
+              <a href="https://www.apasdem.org.mx" class="text-white">APASDEM</a>
             </p>
           </div>
           <!-- Grid column -->
@@ -79,15 +70,14 @@
           <!-- contacto -->
           <div class="col-md-2 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
             <!-- Links -->
-            <h6 class="text-uppercase fw-bold">Contact</h6>
+            <h6 class="text-uppercase fw-bold">Conocimiento y uso de la biodiversidad en México</h6>
             <hr
                 class="mb-4 mt-0 d-inline-block mx-auto"
                 style="width: 60px; background-color: #7c4dff; height: 2px"
                 />
-            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
-            <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+            <p>
+              <a href="https://www.biodiversidad.gob.mx/especies/espPrioritaria" class="text-white">biodiversidad.gob.mx</a>
+            </p>
           </div>
           <!-- Grid column -->
         </div>
@@ -95,18 +85,6 @@
       </div>
     </section>
     <!-- Section: Links  -->
-
-    <!-- Copyright -->
-    <div
-         class="text-center p-3"
-         style="background-color: rgba(0, 0, 0, 0.2)"
-         >
-      © 2020 Copyright:
-      <a class="text-white" href="https://codecary.com/"
-         >codecary.com</a
-        >
-    </div>
-    <!-- Copyright -->
   </footer>
   <!-- Footer -->
 

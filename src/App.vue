@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <PageHeader equipo="Hackaton Team"/>
+    <PageHeader proyecto="Marine Well"/>
     <!--
     <nav>
       <router-link to="/">Home</router-link> |
@@ -10,8 +10,8 @@
     -->
     <router-view/>
     <PageFooter 
-      equipo="Hackaton Team"
-      desc="Invidunt nostrud soluta takimata accusam erat qui justo et illum autem nisl lorem nostrud"
+      equipo="Leones Monarcas"
+      desc="Que tal LaunchX, esperamos que les guste nuestra propuesta! A continuación pueden encontrar nuestros perfiles de GitHub."
       
     />
   </div>
