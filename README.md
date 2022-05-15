@@ -48,8 +48,9 @@ Se encarga de desplegar las targetas con la informacion de las especies desde la
     <img src="documentacion\CardAnimalSpecies.png">
     <br>
 
-    [Maquetado del home](documentacion\HomeView.png)
-    [Maquetado de las especies en extención](documentacion\SpeciesView.png)
+    [Maquetado del home](./documentacion/HomeView.png)
+    <br>
+    [Maquetado de las especies en extención](./documentacion\SpeciesView.png)
 
 ### Project setup
 - Clonar el repositorio 
