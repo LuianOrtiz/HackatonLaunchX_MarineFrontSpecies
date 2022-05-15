@@ -20,7 +20,7 @@
                     </b-card-body>
                 </b-col>
             </b-row>
-            <b-button :href="marine_animal.url_image" target="_blank"  size="sm" class="botones">Asociaciones</b-button> 
+            <b-button :href="marine_animal.url_asosiacion" target="_blank"  size="sm" class="botones">Asociaciones</b-button> 
             <b-button :href="marine_animal.url_info" target="_blank" size="sm" class="botones">Más información </b-button>
         </b-card>
     <div>
