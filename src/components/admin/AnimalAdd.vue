@@ -111,7 +111,7 @@ export default {
   data() {
     return {
       animal: {
-        id: "",
+        id: null,
         name: "",
         scientific_name: "",
         description: "",

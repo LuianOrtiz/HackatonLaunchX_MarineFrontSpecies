@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <PageHeader equipo="Hackaton Team"/>
     <!--
     <nav>
       <router-link to="/">Home</router-link> |
@@ -8,6 +9,11 @@
     </nav>
     -->
     <router-view/>
+    <PageFooter 
+      equipo="Hackaton Team"
+      desc="Invidunt nostrud soluta takimata accusam erat qui justo et illum autem nisl lorem nostrud"
+      
+    />
   </div>
 </template>
 
@@ -34,3 +40,15 @@ nav a.router-link-exact-active {
 }
 */
 </style>
+
+<script>
+import PageHeader from '@/components/PageHeader.vue'
+import PageFooter from '@/components/PageFooter.vue'
+
+export default {
+  components: {
+    PageHeader,
+    PageFooter
+  }
+}
+</script>

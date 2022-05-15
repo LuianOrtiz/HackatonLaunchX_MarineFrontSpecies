@@ -8,10 +8,13 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ms-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home</a>
+          <router-link class="nav-link" to="/">Home</router-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Animales en peligro</a>
+          <router-link class="nav-link"  to="/species">Animales</router-link>
+        </li>
+        <li>
+          <router-link class="nav-link" to="/admin">Admin</router-link>
         </li>
       </ul>
     </div>

@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <PageHeader equipo="Hackaton Team"/>
     <ImagesSlideshow/>
     <br>
     <PurposeObjective 
@@ -12,28 +11,21 @@
       parrafo4="Et nomy invidunt et kasd dolor eirmod takimata assum justo duo nonumy eos sanctus"
     />
     <br><br>
-    <PageFooter 
-      equipo="Hackaton Team"
-      desc="Invidunt nostrud soluta takimata accusam erat qui justo et illum autem nisl lorem nostrud"
-      
-    />
+    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import PageHeader from '@/components/PageHeader.vue'
-import PageFooter from '@/components/PageFooter.vue'
+
 import ImagesSlideshow from '@/components/home/ImagesSlideshow.vue'
 import PurposeObjective from '@/components/home/PurposeObjective.vue'
 
 export default {
   name: 'HomeView',
   components: {
-    PageHeader,
     ImagesSlideshow,
     PurposeObjective,
-    PageFooter
   }
 }
 </script>
