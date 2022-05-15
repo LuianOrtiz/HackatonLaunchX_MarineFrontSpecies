@@ -10,7 +10,6 @@
 
 ## [Video del funcionamiento de la aplicación web](https://www.youtube.com/watch?v=VWlEbRhm9rY&t=1s&ab_channel=%C3%81ngelOrtiz)
 
-[Ideas para el tiktok](IdeasTiktok.md)
 
 ### Tecnologías utilizadas
     - VueJS 2
