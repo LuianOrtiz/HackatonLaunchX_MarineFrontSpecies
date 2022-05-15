@@ -153,5 +153,7 @@ export default {
 </script>
 
 <style scoped>
-
+.submit-form {
+  margin: 100px 0;
+}
 </style>
