@@ -1,6 +1,7 @@
 <template>
     <div class="submit-form">
     <div v-if="!submitted">
+      <h2>¿Conoces algún animal en peligro de extinción? ¡¡Agregalo!!</h2>
     <h3>Nuevo Animalito</h3>
       <div class="form-group">
         <label for="title">Nombre </label>
@@ -42,7 +43,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">Imagen</label>
+        <label for="title">link de la imagen</label>
         <input
           type="text"
           class="form-control"
@@ -55,7 +56,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">More Info</label>
+        <label for="title">Link para más información sobre el animal</label>
         <input
           type="text"
           class="form-control"
@@ -68,7 +69,20 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">Habitad</label>
+        <label for="title">link de la asosiación que lo apoya</label>
+        <input
+          type="text"
+          class="form-control"
+          id="url_asosiacion"
+          required
+          v-model="animal.url_asosiacion"
+          name="url_asosiacion"
+        />
+      </div>
+      <br>
+      <br>
+      <div class="form-group">
+        <label for="title">Id: Habitad</label>
         <input
           type="text"
           class="form-control"
@@ -81,7 +95,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">Estado de Riesgo</label>
+        <label for="title">Id: Estado de Riesgo</label>
         <input
           type="text"
           class="form-control"
@@ -117,6 +131,7 @@ export default {
         description: "",
         url_image: "",
         url_info: "",
+        url_asosiacion: "",
         habitadId: "",
         riskstatusId: "",
       },
@@ -131,6 +146,7 @@ export default {
         description: this.animal.description,
         url_image: this.animal.url_image,
         url_info: this.animal.url_info,
+        url_asoc: this.url_asosiacion,
         habitadId: this.animal.habitadId,
         riskstatusId: this.animal.riskstatusId
       };
