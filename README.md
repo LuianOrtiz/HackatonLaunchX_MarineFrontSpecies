@@ -8,7 +8,7 @@
     - [@SalmaGuitierrez](https://github.com/Pagutri)
 <br>
 
-## [Video del funcionamiento de la aplicación web](https://www.youtube.com/watch?v=VWlEbRhm9rY&t=1s&ab_channel=%C3%81ngelOrtiz)
+## [Youtube: Video del funcionamiento de la aplicación web](https://www.youtube.com/watch?v=VWlEbRhm9rY&t=1s&ab_channel=%C3%81ngelOrtiz)
 
 
 ### Tecnologías utilizadas
@@ -17,7 +17,7 @@
     - Bootstrap
     - Axios
     - VueRouter
-- BackEnd
+- [BackEnd Repositorio](https://github.com/LuianOrtiz/HackatonLaunchX_MarineBackSpecies)
     - NodeJS
     - ExpressJS
     - Prisma ORM
