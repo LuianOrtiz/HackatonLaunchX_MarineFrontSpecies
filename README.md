@@ -72,6 +72,37 @@ Se encarga de desplegar las targetas con la informacion de las especies desde la
 
     [Maquetado de las especies en extención](./documentacion/SpeciesView.png)
 
+### Capturas de la app web
+
+- Pagina de Inicio
+
+    - Navegacion y Banner
+        <img src="documentacion\Funcionamiento\NabyBanner.png">
+        <br>
+
+    - Objetivos y Escalabilidad
+        <img src="documentacion\Funcionamiento\ObjetivoEscalabilidad.png">
+        <br>
+
+    - Footer
+        <img src="documentacion\Funcionamiento\Footer.png">
+        <br>
+
+- Animales en peligro de extinción
+
+    - Carta del animal marino en peligro de extinción
+        <img src="documentacion\Funcionamiento\CardAnimalMarino.png">
+        <br>
+    
+    - Vista de algunas de las especies
+        <img src="documentacion\Funcionamiento\SpeciesView.png">
+        <br>
+
+- Formulario para agregar otra especie en peligro de extinción
+
+    - Formulario
+    <img src="documentacion\Funcionamiento\FormularioAgregarNuevoAnimalMarino.png">
+
 ### Project setup
 - Clonar el repositorio 
         `git clone https://github.com/LuianOrtiz/HackatonLaunchX_MarineFrontSpecies/tree/main`
