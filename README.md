@@ -6,6 +6,11 @@
     - [@KarlaNavarrete](https://github.com/KarlaINZ25)
     - [@AlejandroTrinidad](https://github.com/AlejandroTrinidad97)
     - [@SalmaGuitierrez](https://github.com/Pagutri)
+<br>
+
+## [Video del funcionamiento de la aplicación web](https://www.youtube.com/watch?v=VWlEbRhm9rY&t=1s&ab_channel=%C3%81ngelOrtiz)
+
+[Ideas para el tiktok](IdeasTiktok.md)
 
 ### Tecnologías utilizadas
     - VueJS 2
@@ -16,6 +21,14 @@
 ### Documentación
 - Diagrama de clases 
     <img src="documentacion\diagramaUML_MarineWell.png">
+    <br>
+
+- Diagrama Habitad
+    <img src="documentacion\tbl_Habitad.png">
+    <br>
+
+- Diagrama Habitad
+    <img src="documentacion\tbl_EstadoRiesgo.png">
     <br>
 
 - HomeView.vue
