@@ -49,7 +49,9 @@ Se encarga de desplegar las targetas con la informacion de las especies desde la
     <br>
 
     [Maquetado del home](./documentacion/HomeView.png)
+    
     <br>
+
     [Maquetado de las especies en extención](./documentacion/SpeciesView.png)
 
 ### Project setup
