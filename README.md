@@ -27,7 +27,7 @@
     <img src="documentacion\tbl_Habitad.png">
     <br>
 
-- Diagrama Habitad
+- Diagrama de estados de riesgo
     <img src="documentacion\tbl_EstadoRiesgo.png">
     <br>
 
