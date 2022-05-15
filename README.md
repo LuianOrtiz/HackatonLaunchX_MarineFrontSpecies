@@ -12,10 +12,16 @@
 
 
 ### Tecnologías utilizadas
+- FrontEnd
     - VueJS 2
     - Bootstrap
     - Axios
     - VueRouter
+- BackEnd
+    - NodeJS
+    - ExpressJS
+    - Prisma ORM
+    - Postgresql
 
 ### Documentación
 - Diagrama de clases 
