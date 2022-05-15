@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Hackaton Team</a>
+    <a class="navbar-brand" href="#">{{equipo}}</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,9 +13,6 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Animales en peligro</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Integrantes</a>
-        </li>
       </ul>
     </div>
   </div>
@@ -24,6 +21,9 @@
 
 <script>
 export default {
-  name: 'PageHeader',
+    name: "App",
+    props: {
+    equipo: String
+  }
 }
 </script>
