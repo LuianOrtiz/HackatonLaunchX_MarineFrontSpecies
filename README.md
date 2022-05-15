@@ -5,7 +5,7 @@
     - [@FernandoArceo](https://github.com/FerchoArceo)
     - [@KarlaNavarrete](https://github.com/KarlaINZ25)
     - [@AlejandroTrinidad](https://github.com/AlejandroTrinidad97)
-    - [@SalmaGuitierrez]()
+    - [@SalmaGuitierrez](https://github.com/Pagutri)
 
 ### Tecnologías utilizadas
     - VueJS 2
