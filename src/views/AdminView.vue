@@ -1,15 +1,12 @@
 <template>
-    
+    <h1>Hola</h1>
 </template>
 
 <script>
-import { defineComponent } from '@vue/composition-api'
 
-export default defineComponent({
-    setup() {
-        
-    },
-})
+export default {
+   
+}
 </script>
 
 <style scoped>

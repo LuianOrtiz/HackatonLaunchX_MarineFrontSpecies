@@ -20,15 +20,12 @@
                     </b-card-body>
                 </b-col>
             </b-row>
-            <b-button v-b-modal.modal-center  size="sm" class="botones">Asociaciones</b-button> 
+            <b-button :href="marine_animal.url_image" target="_blank"  size="sm" class="botones">Asociaciones</b-button> 
             <b-button :href="marine_animal.url_info" target="_blank" size="sm" class="botones">Más información </b-button>
         </b-card>
     <div>
-        <b-modal id="modal-center" centered title="Asociaciones que apoyan esta especie">
-            <p class="my-4">Asociacion 1</p>
-            <p class="my-4">Asociacion 2</p>
-        </b-modal>
     </div>
+        
     </div>
     
 </template>
@@ -46,6 +43,9 @@ export default {
       marine_animal: [],
   },
   methods: {
+      hola() {
+          console.log("Hola");
+      }
   }
 }
 </script>

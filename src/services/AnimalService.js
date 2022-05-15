@@ -8,9 +8,12 @@ class AnimalService {
   get(id) {
     return http.get(`/explorers/${id}`);
   }
+  */
   create(data) {
-    return http.post("/explorers", data);
+    return http.post("/animal", data);
   }
+  /*
+
   update(id, data) {
     return http.put(`/explorers/${id}`, data);
   }
