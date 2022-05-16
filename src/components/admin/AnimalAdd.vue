@@ -1,23 +1,23 @@
 <template>
     <div class="submit-form">
     <div v-if="!submitted">
-      <h2>¿Conoces algún animal en peligro de extinción? ¡¡Agregalo!!</h2>
-    <h3>Nuevo Animalito</h3>
+      <h2>¿Conoces alguna especie en peligro de extinción?</h2>
+    <h3>Agregar especie nueva</h3>
       <div class="form-group">
-        <label for="title">Nombre </label>
+        <label for="name">Nombre </label>
         <input
           type="text"
           class="form-control"
           id="name"
           required
           v-model="animal.name"
-          name="title"
+          name="name"
         />
       </div>
       <br>
       <br>
       <div class="form-group">
-        <label for="title">Nombre cientifico</label>
+        <label for="scientific_name">Nombre cientifico</label>
         <input
           type="text"
           class="form-control"
@@ -30,7 +30,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">Descripción</label>
+        <label for="description">Descripción</label>
         <input
           type="text"
           class="form-control"
@@ -43,7 +43,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">link de la imagen</label>
+        <label for="url_image">link de la imagen</label>
         <input
           type="text"
           class="form-control"
@@ -56,7 +56,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">Link para más información sobre el animal</label>
+        <label for="url_info">Link para más información sobre el animal</label>
         <input
           type="text"
           class="form-control"
@@ -69,7 +69,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">link de la asosiación que lo apoya</label>
+        <label for="url_asosiacion">link de la asosiación que lo apoya</label>
         <input
           type="text"
           class="form-control"
@@ -82,7 +82,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">Id: Habitad</label>
+        <label for="habitadId">Id: Habitad</label>
         <input
           type="text"
           class="form-control"
@@ -95,7 +95,7 @@
       <br>
       <br>
       <div class="form-group">
-        <label for="title">Id: Estado de Riesgo</label>
+        <label for="riskstatusId">Id: Estado de Riesgo</label>
         <input
           type="text"
           class="form-control"
@@ -171,5 +171,17 @@ export default {
 <style scoped>
 .submit-form {
   margin: 100px 0;
+  background-color: #FFFF;
+}
+
+.form-group input {
+  border: solid #FF9F1C;
+  padding: 10px 10px;
+}
+
+.form-group label {
+  text-align: left;
+  padding: 10px 0;
+  font-size: 24px;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
 <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">{{proyecto}}</a>
+    <router-link class="navbar-brand" to="/">{{proyecto}}</router-link>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -30,3 +30,8 @@ export default {
   }
 }
 </script>
+<style scoped>
+.navegar {
+  background-color: #152F4F;
+}
+</style>

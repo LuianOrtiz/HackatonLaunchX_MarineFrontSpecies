@@ -18,6 +18,10 @@
       </div>
     </div>
     <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="card float-right">
       <div class="row">
         <div class="col-sm-5">
@@ -34,6 +38,11 @@
  
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
   </div>
 </template>
 

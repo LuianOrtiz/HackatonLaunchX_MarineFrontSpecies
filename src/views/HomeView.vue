@@ -2,6 +2,9 @@
   <div class="home">
     <ImagesSlideshow/>
     <br>
+    <br>
+    <br>
+    <br>
     <PurposeObjective 
       titulo1="Objetivo"
       parrafo1="Darle visibilidad a las especies marinas que se encuentran en peligro de extinción en nuestro país."

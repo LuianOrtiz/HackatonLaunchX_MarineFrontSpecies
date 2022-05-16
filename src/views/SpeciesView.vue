@@ -1,6 +1,6 @@
 <template>
   <div class="cartas">
-    <h2>Conoce a los animales de la fauna marina en peligro de extinción</h2>
+    <h2>Conoce las especies de la fauna marina en peligro de extinción</h2>
     <b-container fluid> 
       <b-row> 
         <b-col cols="6" md="4" v-for="(marine_animal, index) in marine_animals" :key="index" class="cartitas"> 
@@ -48,6 +48,6 @@ export default {
 }
 
 .cartitas {
-  margin: 5vh 0;
+  margin: 50px 0 ;
 }
 </style>
